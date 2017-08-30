@@ -1,15 +1,13 @@
 // ==UserScript==
 // @name        ClicknUpload Killer Core
 // @namespace   Softbreakers
+// @namespace   softbreakers
 // @description Direct download from ClicknUpload links
 // @version     1
 // @grant       none
 // ==/UserScript==
 
-
-
 function ClicknUpload(url, handler) {
-  alert("ClicknUpload: " + url);
 	var $ = unsafeWindow.jQuery;
   var posting = $.post(url, {   op: "download2", 
                                 id:url.substr(url.lastIndexOf('/') + 1),
