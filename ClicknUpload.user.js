@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name        ClicknUpload Killer
-// @namespace   Softbreakers
+// @author      Softbreakers
+// @namespace   softbreakers
 // @description Direct download from ClicknUpload links
 // @include     https://clicknupload.org/*
 // @version     1
 // @grant       none
-// @require     core/ClicknUpload_core.js
+// @require     cores/ClicknUpload_core.js
 // ==/UserScript==
 
 
